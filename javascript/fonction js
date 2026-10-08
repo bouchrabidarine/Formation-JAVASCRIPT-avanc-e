@@ -1,0 +1,8 @@
+function cverifierAge(age){
+    if( age >= 18){
+      return "admin"
+    }else{
+        return "no admis"
+    }
+}
+console.log(cverifierAge(18))

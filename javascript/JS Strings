@@ -1,0 +1,13 @@
+ let nom = "bouchra"
+ console.log(nom.replace('bouchra','karim'))
+
+let nom = "bouchra"
+ console.log(nom.toUpperCase())
+
+let nom = "bouchra"
+ console.log(nom.indexOf("b"))
+
+ let nom = "kholod"
+ let age = 20
+ let message = `hello ${nom} Im ${age}`
+ console.log(message)

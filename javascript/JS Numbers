@@ -1,0 +1,4 @@
+let prix = "2"
+prix = Number(prix)
+console.log( typeof prix)
+console.log((Math.floor(Math.random())*100) + 1)

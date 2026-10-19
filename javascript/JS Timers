@@ -1,0 +1,8 @@
+const day= new Date();
+const newday=day.getFullYear();
+console.log(newday);
+
+const d = new Date("January 01, 2025");
+ d.setFullYear(2020); 
+ console.log(d);
+ console.log(d.getFullYear());

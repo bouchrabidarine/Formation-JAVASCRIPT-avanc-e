@@ -1,0 +1,22 @@
+
+function Etudiant(nom, note){
+   this.nom = nom;
+   this.note= note;
+   this.mention = function(){
+    if( this.note >= 16){
+        return  this.nom + " : " + this.note + " Très bien"
+    }else if( this.note >=10 && this.note <16){
+        return this.nom + " : " + this.note + " Admis"
+    }else{
+        return this.nom + " : " + this.note + " Échoué"
+    }
+   }
+}
+ const etudiant1 = new Etudiant("Sara", 18);
+const etudiant2 = new Etudiant("Amine", 12);
+const etudiant3 = new Etudiant("Youssef", 7);
+
+console.log(etudiant1.mention());
+console.log(etudiant2.mention());
+console.log(etudiant3.mention());
+
